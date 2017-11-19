@@ -4,8 +4,30 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-# column: value
+
+# mobile phones
+iphone:
+  name: "Iphone"
+  category: mobile_phones
+
+galaxy_s6:
+  name: "Galaxy S6"
+  category: mobile_phones
+
+# books
+wonder:
+  name: "Wonder"
+  category: books
+
+secret_garden:
+  name: "Secret garden"
+  category: books
+
+# plants
+aloe_vera:
+  name: "Aloe vera"
+  category: plants
+
+majesty_palm:
+  name: "Majesty palm"
+  category: plants
