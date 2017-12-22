@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171222140812) do
+ActiveRecord::Schema.define(version: 20171222145321) do
 
   create_table "basket_items", force: :cascade do |t|
     t.integer "basket_id", null: false
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20171222140812) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "role", default: "customer", null: false
   end
 
 end
