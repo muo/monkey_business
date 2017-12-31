@@ -32,12 +32,15 @@ gem "jbuilder", "~> 2.5"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem "devise_token_auth"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem "capybara", "~> 2.13"
   gem "factory_bot"
+  gem "pry"
   gem "rails-erd"
   gem "rspec-rails", "~> 3.6"
   gem "rubocop", require: false
